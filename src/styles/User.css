@@ -1,0 +1,111 @@
+.user-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+.calendar-section,
+.new-communication-container,
+.logged-dates-container {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+h3 {
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.logged-dates-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.logged-dates-container li {
+    margin: 5px 0;
+}
+.dark-mode-calendar {
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+}
+
+.react-calendar {
+    background-color: #333;
+    color: white;
+}
+
+.react-calendar__tile {
+    background-color: #444;
+    color: white;
+    border-radius: 8px;
+}
+
+.react-calendar__tile:hover {
+    background-color: #555;
+}
+
+.react-calendar__month-view__days__day {
+    color: #fff;
+}
+
+.react-calendar__tile--active {
+    background-color: #2d87f0;
+    color: white;
+}
+
+.react-calendar__navigation button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.react-calendar__navigation button:hover {
+    background-color: #444;
+}
+
+.react-calendar__tile:disabled {
+    background-color: #333;
+    color: #777;
+}

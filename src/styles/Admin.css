@@ -1,0 +1,55 @@
+.admin-page {
+    padding: 20px;
+  }
+  
+  .company-management,
+  .communication-methods {
+    margin-bottom: 30px;
+  }
+  
+  .input-box {
+    margin-bottom: 10px;
+  }
+  
+  .input-box label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-box input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .company-item {
+    margin-bottom: 20px;
+  }
+  
+  .company-item h4 {
+    margin: 5px 0;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  .company-item div {
+    margin: 5px 0;
+  }
+  
